@@ -3,12 +3,6 @@ format: html
 ---
 
 
-
-<style>
-  body {
-  background-image: url("/img/tutorials/site-in-progress.jpg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-</style>
+::: {.column-screen style="margin-top: -50px; margin-bottom: -100px;"}
+![](/img/tutorials/site-in-progress.jpg)
+:::
