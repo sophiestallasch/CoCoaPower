@@ -1,0 +1,316 @@
+/*-- scss:defaults --*/
+
+
+// COLORS
+
+$white: #ffffff !default;
+$gray1: #f8f9fa !default;
+$gray2: #e9ecef !default;
+$gray3: #dee2e6 !default;
+$gray4: #ced4da !default;
+$gray5: #adb5bd !default;
+$gray6: #868e96 !default;
+$gray7: #495057 !default;
+$gray8: #373a3c !default;
+$gray9: #212529 !default;
+$black: #000000 !default;
+
+$blue1: #96d2d3 !default;
+$blue2: #68b2b6 !default;
+$blue3: #1c959b !default;
+$blue4: #027381 !default;
+$blue5: #055269 !default;
+$blue6: #073252 !default;
+
+$brown1: #F3EEEA !default;
+$brown2: #E8D7C7 !default;
+$brown3: #CDB199 !default;
+$brown4: #8A7A6A !default;
+$brown5: #3C352D !default;
+
+$rosebrown1:  #f4ecec !default;
+$rosebrown2:  #e9d9d8 !default; 
+$rosebrown3:  #dec6c5 !default; 
+$rosebrown4:  #d3b3b3 !default; 
+$rosebrown5:  #c8a1a1 !default; 
+$rosebrown6:  #bc8f8f !default; 
+$rosebrown7:  #9a7676 !default; 
+$rosebrown8:  #795d5d !default; 
+$rosebrown9:  #5a4646 !default; 
+$rosebrown10: #3d3030 !default; 
+$rosebrown11: #211b1b !default;
+
+
+$primary:   $blue4 !default;
+$secondary: $blue1 !default;
+$light:     $gray1 !default;
+$dark:      $gray9 !default;
+
+
+// SCSS BASE DOCUMENT - SASS VARIABLES
+
+/* Grid */
+$grid-sidebar-width: 150px !default;
+$grid-body-width: 1000px !default;
+$grid-margin-width: 150px !default;
+$grid-column-gutter-width: 1.5rem !default;
+
+/* Navigation Bar */
+$navbar-bg: $dark !default;
+$navbar-fg: $white !default;
+$navbar-hl: $secondary; 
+$navbar-hover-color: $primary;
+ 
+/* Headings */
+$headings-color: $black !default;
+
+/* Links */
+$link-color: $blue2 !default;
+$link-decoration: none !default;
+$link-hover-color: $primary !default;
+$link-hover-decoration: none !default;
+
+/* Footer */
+$footer-bg: $dark !default;
+$footer-fg: $white !default;
+
+/* Inline Code */
+$code-bg: $gray2 !default;
+$code-color: $dark !default;
+
+/* TOC */
+$toc-color: $primary;
+$toc-font-size: 1em;
+
+/* Code Copy */
+$btn-code-copy-color-active: $secondary !default;
+
+/* Callouts */
+$callout-color-note: $primary !default;
+
+
+/*-- scss:rules --*/
+
+// PAGE LAYOUT ELEMENTS
+
+/* Navigation Bar */
+.navbar {
+  border-bottom: solid $white;
+  border-bottom-width: calc(1px + .05vw);
+}
+
+/* Footer */
+.footer a:link,
+.footer a:visited,
+.footer a:active { color: $secondary; } 
+.footer a:hover { color: $primary; }
+.footer-icon-style { padding: 0 0.2rem; }
+
+.nav-footer {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 0 !important;
+    min-height: 2em;
+
+    .faux-block {
+        display: block;
+        padding-bottom: 0.4em;
+    }
+
+    .nav-footer-center {
+        text-align: center;
+        position: inherit;
+        margin-top: 0;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            margin-top: 0.5em;
+            margin-bottom: 1.5em;
+        }
+    }
+
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center {
+        text-align: center;
+        width: 100%;
+        min-height: 2em;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        .nav-footer-left { text-align: left; }
+
+        .nav-footer-right { text-align: right; }
+
+        .nav-footer-left,
+        .nav-footer-right,
+        .nav-footer-center { flex: 1 1 33%; }
+    }
+}
+
+/* Buttons */
+.btn-primary {
+  border-radius: 40px;
+  border: solid $white calc(1px + .05vw);
+  color: $light;
+  padding: 15px 50px;
+  background: $black;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open>.dropdown-toggle.btn-primary {
+    color: $primary;
+    font-weight: bold;
+    background: $white;
+    border: solid $primary calc(1px + .05vw);
+    box-shadow: inset 0 0 0 1px $primary;
+}
+
+.btn-secondary {
+  font-size: 0.8em;
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+  color: lighten($body-color, 20%);
+  text-decoration: none;
+  border: solid 1px;
+  background: transparent;
+  &:hover { 
+    background: transparent;
+    border: solid 1px $primary;
+    color: $primary; 
+  }
+}
+
+.btn-icon-style { padding: 0 0.2rem; }
+
+/* References */
+#refs {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: -1px;
+}
+
+/* Publication Carousel */
+.carousel {
+    max-width: 900px; 
+    max-height: 900px;
+    margin: auto;
+}
+.carousel > .carousel-inner > .carousel-item > img{
+    max-width: 900px; 
+    max-height: 900px;
+    margin: auto;
+}
+
+
+/* Full-Screen Highlight Box */
+.full-bleed {
+  background: $rosebrown1;
+  border-top: solid $white;
+  border-top-width: calc(1px + .05vw);
+  border-bottom: solid $white;
+  border-bottom-width: calc(1px + .05vw);
+  padding-top: 1.5em;
+}
+
+.full-bleed a:link,
+.full-bleed a:visited, 
+.full-bleed a:active { color: $rosebrown6; } 
+.full-bleed a:hover{ color: $rosebrown8; } 
+
+html, 
+body {
+  overflow-x: hidden;
+  //text-align: justify;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background: $dark;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $gray1;
+  border: 3px solid $dark;
+  border-radius: 100vw;
+}
+
+
+// OTHER LAYOUT COMPONENTS
+
+// STYLING
+
+/* Headings and Highlights*/
+h1 {
+  font-size: 2rem;
+  padding: 2em 0; 
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  border: none;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+#big-bold {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#subtitle-highlight {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: $primary;
+}
+
+/* About Links */
+.about-link:hover { color: $primary !important; }
+
+.full-bleed .about-link { color: lighten($body-color, 20%) !important; 
+  &:hover { color: $rosebrown8 !important; }
+}
+
+/* Quotes */
+.quote {
+ font-family: 'Caveat', serif; 
+ font-size: 40px; 
+ line-height: 50%;
+ color: $primary; 
+}
+
+/* Icons */
+.icon-style {
+  color: $secondary;
+  padding-right: 8px;
+}
+
+
+/* Text Styling */
+#centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

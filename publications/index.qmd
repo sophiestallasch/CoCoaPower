@@ -1,0 +1,89 @@
+---
+format: html
+---
+
+::: {.column-screen .full-bleed}
+::: {.column-body}
+**Check out our new preprint on [PsyArXiv](https://doi.org/10.31234/osf.io/dkw42)!**
+
+Brunner, M., Stallasch, S. E., Artelt, C., & Lüdtke, O. (2024). *An individual participant data meta-analysis to support power analyses for randomized intervention studies in preschool: Cognitive and socio-emotional learning outcomes*. PsyArXiv. [https://doi.org/10.31234/osf.io/dkw42](https://doi.org/10.31234/osf.io/dkw42)
+:::
+:::
+
+
+
+# OUR PUBLICATIONS
+
+
+```{=html}
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://doi.org/10.1007/s10648-024-09898-7">
+        <img src="/img/publications/Stallasch-et-al_2024_prev.png" class="d-block w-100">
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://doi.org/10.25932/publishup-62939">
+        <img src="/img/publications/Stallasch_2024_prev.png" class="d-block w-100">
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://doi.org/10.1080/19345747.2023.2175753">
+        <img src="/img/publications/Brunner-et-al_2023_prev.png" class="d-block w-100">
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://doi.org/10.1080/19345747.2020.1823539">
+        <img src="/img/publications/Stallasch-et-al_2021_prev.png" class="d-block w-100">
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://doi.org/10.1080/19345747.2017.1375584">
+        <img src="/img/publications/Brunner-et-al_2017_prev.png" class="d-block w-100">
+      </a>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+```
+
+
+&nbsp;
+
+&nbsp;
+
+
+
+Brunner, M., Stallasch, S. E., Artelt, C., & Lüdtke, O. (2024). *An individual participant data meta-analysis to support power analyses for randomized intervention studies in preschool: Cognitive and socio-emotional learning outcomes*. PsyArXiv. [https://doi.org/10.31234/osf.io/dkw42](https://doi.org/10.31234/osf.io/dkw42)
+
+
+Stallasch, S. E., Lüdtke, O., Artelt, C., Hedges, L. V., & Brunner, M. (2024). Single- and multilevel perspectives on covariate selection in randomized intervention studies on student achievement. *Educational Psychology Review*, *36*, 112. [https://doi.org/10.1007/s10648-024-09898-7](https://doi.org/10.1007/s10648-024-09898-7)
+
+
+Stallasch, S. E. (2024). *Optimizing power analysis for randomized experiments: Design parameters for student achievement* [Doctoral dissertation]. University of Potsdam. [https://doi.org/10.25932/publishup-62939](https://doi.org/10.25932/publishup-62939)
+
+
+Brunner, M., Stallasch, S. E., & Lüdtke, O. (2023). Empirical benchmarks to interpret intervention effects on student achievement in elementary and secondary school: Meta-analytic results from Germany. *Journal of Research on Educational Effectiveness*, *17*(1), 119–157. [https://doi.org/10.1080/19345747.2023.2175753](https://doi.org/10.1080/19345747.2023.2175753)
+
+
+Stallasch, S. E., Lüdtke, O., Artelt, C., & Brunner, M. (2021). Multilevel design parameters to plan cluster-randomized intervention studies on student achievement in elementary and secondary school. *Journal of Research on Educational Effectiveness*, *14*(1), 172–206. [https://doi.org/10.1080/19345747.2020.1823539](https://doi.org/10.1080/19345747.2020.1823539)
+
+
+Brunner, M., Keller, U., Wenger, M., Fischbach, A., & Lüdtke, O. (2018). Between-school variation in students’ achievement, motivation, affect, and learning strategies: Results from 81 countries for planning group-randomized trials in education. *Journal of Research on Educational Effectiveness*, *11*(3), 452–478. [https://doi.org/10.1080/19345747.2017.1375584](https://doi.org/10.1080/19345747.2017.1375584)
+
+

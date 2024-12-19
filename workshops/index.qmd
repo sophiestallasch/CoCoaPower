@@ -1,0 +1,33 @@
+---
+format: html
+---
+
+# OUR WORKSHOPS
+
+&nbsp;
+
+## Previous Workshops
+
+
++--------------+----------------------------------------------------------------------------------------------+
+| 2022\        | Randomized Field Trials\                                                                     |
+| June 9-10    | Larry V. Hedges, Martin Brunner, & Sophie E. Stallasch\                                      |
+|              | University of Potsdam, Germany\                                                              |
+|              | [Materials](https://github.com/sophiestallasch/2022-workshop-CRT) |                          |
+|              | [Website](https://sophiestallasch.github.io/2022-workshop-CRT/)                              |
++--------------+----------------------------------------------------------------------------------------------+
+| 2024\        | Poweranalyse für experimentelle Designs in R [Power Analysis for Experimental Designs in R]\ |
+| March 21     | Sophie E. Stallasch\                                                                         |
+|              | Early career conference of the Society for Empirical Educational Research (GEBF)             |
+|              | 11th Annual Conference, Potsdam, Germany\                                                    |
+|              | [Materials](https://github.com/sophiestallasch/2024-workshop-GEBF-power) |                   |
+|              | [Website](https://sophiestallasch.github.io/2024-workshop-GEBF-power/)                       |
++--------------+----------------------------------------------------------------------------------------------+
+
+: {tbl-colwidths="[15,85]"}
+
+&nbsp;
+
+## Upcoming Workshops
+
+Tba

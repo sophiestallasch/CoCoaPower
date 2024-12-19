@@ -1,0 +1,134 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "/img/logo_black.jpg"
+  image-width: 20em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:stallasch@uni-potsdam.de"  
+    - icon: house-fill
+      text: University of Potsdam
+      href: https://www.uni-potsdam.de/en/quantmethoden/forschung
+    - icon: github
+      text: GitHub
+      href: https://github.com/sophiestallasch
+---
+
+
+::: {#about-block style="text-align: center;"}
+CENTER FOR STATISTICAL CONSULTING & COACHING ON THE DESIGN OF RANDOMIZED TRIALS IN EDUCATION
+:::
+
+&nbsp;
+
+::: {.column-screen .full-bleed}
+::: {.column-body}
+Without any doubt, successful education is a fundamental pillar of a society’s prosperity. Across the globe, policymakers, practitioners, and researchers increasingly prioritize evidence-based education to improve learning and teaching [@organisationforeconomicco-operationanddevelopment2007; @pellegrini.vivanet2021; @slavin2002]. This also applies to Germany [@kultusministerkonferenz2016]. 
+
+The overarching goal of CoCoaPower is to advance these efforts by strengthening our national capacities to generate robust empirical evidence on the impacts of educational and psychological interventions, as well as innovative programs, products, and services, which can be derived from strong randomized trials (RTs).
+
+"Strong" means well-designed, well-implemented, and well-analyzed [@spybrook2013]. CoCoaPower focuses on laying the groundwork for the first aspect of a strong RT, namely a good design. After all, valid and reliable causal inferences about the actual effects of interventions presuppose RTs that demonstrate sufficient statistical power and precision—or, put differently, adequate *design sensitivity* [@lipsey1990]. 
+:::
+:::
+
+
+&nbsp;
+
+CoCoaPower seeks to enhance the methodological quality of individually randomized trials (IRTs), multisite randomized trials (MSRTs), and cluster randomized trials (CRTs). 
+Specifically, CoCoaPower pools and provides resources and expertise on design decisions in general and power analysis in particular. 
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="index.qmd#form" role="button">Contact us!</a>
+</div>
+```
+
+CoCoaPower is organized around two main strands:
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .card}
+::: {.card-body style="text-align: left;"}
+### {{< bi chat-dots class="icon-style" size="1.8rem">}} STATISTICAL CONSULTING SERVICE
+
+We directly support researchers in planning rigorous RTs. 
+
+**We provide...**
+
++ concrete results obtained from power analysis tailored to researchers’ target study designs.
++	advice on general design decisions (e.g., regarding the choice of a specific design or the selection of covariates). 
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .card}
+::: {.card-body style="text-align: left;"}
+### {{< bi mortarboard class="icon-style" size="1.8rem">}} STATISTICAL COACHING INFRASTRUCTURE
+
+We train researchers to develop well-designed RTs. 
+
+**We provide...**
+
++ specialized workshops on power analysis for various RT designs.
++ web-based tutorials on power analysis that guide researchers through the steps necessary to determine the relevant quantities of a robust study design.
+:::
+:::
+
+:::
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="index.qmd#form" role="button">Contact us!</a>
+</div>
+```
+
+
+### BACKGROUND
+CoCoaPower builds on previous and ongoing work in the context of [MULTI-DES](https://www.uni-potsdam.de/en/quantmethoden/forschung), a project series funded by the German Research Foundation (Grant 392108331). [MULTI-DES](https://www.uni-potsdam.de/en/quantmethoden/forschung) is dedicated to compiling an extensive database of single- and multilevel design parameters and effect size benchmarks for K-12 students’ cognitive and socio-emotional outcomes in the German education system. These design parameters and effect size benchmarks are key to planning sufficiently powered and precise RTs and interpreting their results.
+
+
+::: {.column-screen .full-bleed}
+::: {.column-body}
+CoCoaPower is funded through a grant awarded to [Larry V. Hedges](https://statistics.northwestern.edu/people/faculty/larry-hedges.html) by the [Yidan Prize Foundation](https://yidanprize.org/) in 2018.
+:::
+:::
+
+&nbsp;
+
+::: {#form}
+
+&nbsp;
+
+**Send us your message. We'll get in touch with you.**
+:::
+
+::: {}
+<form action="https://formspree.io/f/xyzydoek" method="POST" accept-charset="utf-8">
+
+::: {.form-group}
+<label for="full-name">Full name</label>
+<input type="text" name="name" id="full-name" class="form-control" placeholder="First Last" required>
+:::
+
+::: {.form-group}
+<label for="email-address">Email address</label>
+<input type="email" name="_replyto" id="email-address" class="form-control" placeholder="your@email.here" required>
+:::
+
+::: {.form-group}
+<label for="message">Message</label>
+  <textarea rows="6" name="message" id="message" class="form-control" placeholder="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." required></textarea>
+:::
+
+<button type="submit" class="btn btn-secondary mt-2">{{< bi send>}} Send</button>
+</form>
+:::
+
+
+
+
+
+&nbsp;
+

@@ -1,0 +1,88 @@
+website:
+  title: "CoCoaPower"
+  description: "Center for Statistical Consulting & Coaching on the Design of Randomized Trials in Education"
+  image: /img/logo_black.jpg
+  
+  favicon: /img/logo-fav_black.png
+  
+  # -- Navigation Bar
+  navbar:
+    pinned: true
+    logo: /img/logo-mini_gray9.png
+    
+    # Subpages
+    left:
+      - text: "Design Parameters"
+        href: dp/index.qmd
+      - text: "Tutorials"
+        href: tutorials/index_in-progress.qmd
+      - text: "Workshops"
+        href: workshops/index.qmd
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "About Us"
+        href: about/index.qmd
+    
+    # Links
+    right:
+      - icon: envelope
+        href: "mailto:stallasch@uni-potsdam.de" 
+      - icon: house-fill
+        href: https://www.uni-potsdam.de/en/quantmethoden/team/sophie-stallasch
+      - icon: github
+        href: https://github.com/sophiestallasch/
+
+  # -- Search Bar
+  search: 
+    location: navbar
+    type: textbox
+  
+  # -- Footer
+  page-footer: 
+    left: "&#169; 2024 Sophie E. Stallasch"
+    right: |
+      <div class="faux-block">
+        <span>Built with <a href="https://quarto.org/"> Quarto<sup>&#174;</sup></a></span>
+        <span>and <a href="https://getbootstrap.com/">{{< bi bootstrap class="footer-icon-style">}}</a></span>
+        <span>|&nbsp; Source code on <a href="https://github.com/sophiestallasch/">{{< bi github class="footer-icon-style">}}</a></span>
+      </div>
+
+
+# ---------------------------
+# Settings
+
+# -- Default Formatting & Styles
+format:
+  html:
+    theme: 
+      - html/styles.scss
+      - fonts/roboto.css
+      - fonts/caveat.css
+    backgroundcolor: '#f8f9fa'
+    mainfont: roboto, Arial, Helvetica, sans-serif
+    fontsize: 1.1em
+    toc: false
+    code-link: true
+    anchor-sections: false
+    fig-cap-location: bottom
+    footnotes-hover: true
+    page-layout: article
+    highlight-style: allay.theme
+
+# -- References
+bibliography: references.bib
+csl: apa.csl
+
+# -- Other
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
