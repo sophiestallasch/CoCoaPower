@@ -1,0 +1,5 @@
+---
+title: "404"
+---
+
+Oops... page not found. Navigate back or use the search.
