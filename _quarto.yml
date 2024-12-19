@@ -1,9 +1,9 @@
 website:
   title: "CoCoaPower"
   description: "Center for Statistical Consulting & Coaching on the Design of Randomized Trials in Education"
-  image: /img/logo_black.jpg
+  image: img/logo_black.jpg
   
-  favicon: /img/logo-fav_black.png
+  favicon: img/logo-fav_black.png
   
   # -- Navigation Bar
   navbar:

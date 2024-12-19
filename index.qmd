@@ -2,7 +2,7 @@
 about:
   template: jolla
   id: about-block
-  image: "/img/logo_black.jpg"
+  image: "img/logo_black.jpg"
   image-width: 20em
   image-shape: round
   links:
@@ -15,8 +15,6 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/sophiestallasch
-
-code-overflow: wrap
 ---
 
 
