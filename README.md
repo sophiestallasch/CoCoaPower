@@ -1,4 +1,6 @@
-# Welcome to CoCoaPower---Center for Statistical Consulting & Coaching on the Design of Randomized Trials in Education
+# Welcome to CoCoaPower
+
+## Center for Statistical Consulting & Coaching on the Design of Randomized Trials in Education
 
 This is the repository for the web presence of the CoCoaPower project at <https://sophiestallasch.github.io/CoCoaPower/>.
 
