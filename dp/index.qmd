@@ -48,7 +48,7 @@ To optimally support evaluation researchers in designing strong RTs that allow v
 &nbsp;
 
 :::{.callout-note}
-There are several resources for empirical estimates of ρ and *R*^2^ for educational and psychological outcomes. An overview of existing international and German research on design parameters for student achievement can be found in @stallasch2024, and -- in more detail/meta-analytically aggregated -- in @stallasch.etal2021/@stallasch.etal2024. The research review in @brunner.etal2024 also addresses socio-emotional learning outcomes. Similarly, @brunner.etal2024 summarize available effect size benchmarks for student achievement.
+There are several resources for empirical estimates of ρ and *R*^2^ for educational and psychological outcomes. An overview of existing international and German research on design parameters for student achievement can be found in @stallasch2024, and -- in more detail/meta-analytically aggregated -- in @stallasch.etal2021/@stallasch.etal2024. The research review in @brunner.etal2025 also addresses socio-emotional learning outcomes. Similarly, @brunner.etal2023a summarize available effect size benchmarks for student achievement.
 :::
 
 
@@ -130,9 +130,9 @@ Previews of the meta-analytically integrated design parameters from @stallasch.e
 
 
 ### {{< bi database-check >}} Brunner et al. (2024)
-<span id="subtitle-highlight">Our brand-new preprint with (meta-analytic) design parameters for cognitive and socio-emotional learning outcomes in preschool</span>  
+<span id="subtitle-highlight">Our (meta-analytic) design parameters for cognitive and socio-emotional learning outcomes in preschool</span>  
 
-In @brunner.etal2024, we estimated and meta-analyzed ρ and *R*^2^ values for preschool children's cognitive as well as socio-emotional learning outcomes. For this purpose, we drew on a systematic collection of individual participant data from 4 German probability samples of 2- to 6-year-olds. The estimates are relevant for
+In @brunner.etal2025, we estimated and meta-analyzed ρ and *R*^2^ values for preschool children's cognitive as well as socio-emotional learning outcomes. For this purpose, we drew on a systematic collection of individual participant data from 4 German probability samples of 2- to 6-year-olds. The estimates are relevant for
 planning single-level (e.g., in non-clustered lab-based settings), two-level (children nested within daycare centers), and three-level (children nested within groups within daycare centers) RTs. The analyzed outcomes are assessed with
 three methods (standardized tests, parent ratings, and educator ratings). We also considered vital covariate sets (baseline measures, sociodemographic characteristics, and their combination).
 
@@ -148,7 +148,7 @@ of the target intervention. The respective Online Supplemental Material B can be
 
 ![](/img/dp/dp_Brunner-et-al_2024_TabBSPM-preview.png){group="dp_MD2-S1"}
 
-Previews of the design parameters from @brunner.etal2024
+Previews of the design parameters from @brunner.etal2025
 :::
 
 ```{=html}
@@ -222,7 +222,7 @@ Previews of further effect size benchmarks from @brunner.etal2023a
 ### {{< bi database-check >}} Brunner et al. (2018)
 <span id="subtitle-highlight">Our world-wide diversified multilevel design parameters for student achievement, affect and motivation, and learning strategies</span>  
 
-In their cross-country research, @brunner.etal2024 estimated a broad spectrum of two-level (students within schools) ρ and *R*^2^ values for 15-year-olds' domain-specific and domain-general academic outcomes. The authors capitalized on representative, cross-sectional large-scale assessment data for 81 nations and economies from five PISA cycles in the years 2000, 2003, 2006, 2009, and 2012. Sociodemographic characteristics were employed as covariates. The estimates are also summarized in terms of normative distributions. 
+In their cross-country research, @brunner.etal2018 estimated a broad spectrum of two-level (students within schools) ρ and *R*^2^ values for 15-year-olds' domain-specific and domain-general academic outcomes. The authors capitalized on representative, cross-sectional large-scale assessment data for 81 nations and economies from five PISA cycles in the years 2000, 2003, 2006, 2009, and 2012. Sociodemographic characteristics were employed as covariates. The estimates are also summarized in terms of normative distributions. 
 
 The design parameters are provided as an extensive Excel file, which can be downloaded from the [Journal's website](https://www.tandfonline.com/doi/suppl/10.1080/19345747.2017.1375584?scroll=top).   
 
